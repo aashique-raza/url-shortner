@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container  {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #264653;
+  text-align: center;
+  padding: 80px 30px;
+}
+.container .heading{
+   font-size: 72px;
+   color: #e9c46a;
+}
+
+div.form{
+  padding: 30px 0;
+
+}
+div.form form input {
+  padding: 8px 30px ;
+  width: 80%;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+div.form form button{
+  border: 0;
+  outline: none;
+  background-color: #2a9d8f;
+  padding: 10px 24px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+/* link-box */
+
+.link-box {
+  display: flex;
+  flex-wrap: wrap;
+  background: #e9c46a;
+  padding: 20px;
+  margin: 4px;
+}
+.link-box .full , .link-box .short{
+  width: 40%;
+}
+
+.link-box div a{
+  color: #264653;
+}
+
+.clicks{
+  height: 20px;
+  width: 20px;
+  background: #2a9d8f;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+.delete span{
+color:  #d11a2a;
+font-size: 24px;
+}
+
+@media only screen and (max-width: 768px){
+  .container  {
+    
+    padding: 30px 20px;
+  }
+  .container .heading{
+    font-size: 45px;
+  }
+  div.form{
+    padding:  0;
+    /* border: 2px solid red; */
+    margin: 13px 0px;
+  }
+  div.form form input {
+    width: 100%;
+    font-size: 16px;
+  
+  }
+  
+  div.form form button{
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .link-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 8px 0px;
+    border: 2px solid green;
+  }
+  .link-box .full , .link-box .short{
+    width: 40%;
+  }
+  .link-box .full{
+    display: none;
+  }
+  .link-box h2{
+    font-size: 20px;
+    margin: 0px;
+  }
+  .link-box div a{
+    font-size: 13px;
+  }
+  .clicks{
+    margin-left: 30px;
+  }
+
+}
